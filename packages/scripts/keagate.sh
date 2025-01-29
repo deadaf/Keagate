@@ -207,7 +207,8 @@
     print_complete
 
     echo "Installing Keagate dependencies..."
-    pnpm i --silent -g pm2
+    pnpm i -g pm2
+    echo "Running pnpm i ...."
     pnpm i --silent
     print_complete
 
